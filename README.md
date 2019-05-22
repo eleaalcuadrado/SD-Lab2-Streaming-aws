@@ -73,6 +73,8 @@ Definición de funciones para crear el stream.
 Consumidor captando el streaming del Productor.
 ![data_stream](https://user-images.githubusercontent.com/28808828/58146570-b2168d00-7c24-11e9-98b4-afdb10676246.png)
 
+Consumidor buscando el dato dado un rut.
+![data_stream](https://user-images.githubusercontent.com/28808828/58146694-30732f00-7c25-11e9-90d1-7df9f57d2a39.png)
 ## Link de acceso a versión productiva del software.
 
 ## Pasos para desplegar servicio desde cero.
