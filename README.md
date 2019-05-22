@@ -74,3 +74,9 @@ Definición de funciones para crear el stream.
 ## Link de acceso a versión productiva del software.
 
 ## Pasos para desplegar servicio desde cero.
+A continuación se explica el paso a paso para hacer uso del servicio
+### Paso 1 Creación de cuenta
+Crear una cuenta en Amazon Web Service con un método de pago habilitado para hacer uso de los servicios de AWS.
+### Paso 2 Creación de credenciales
+Una vez dentro de AWS ir a la sección Seguridad, Identidad Y Conformidad e ingresar a IAM, en la pestaña usuario crear un nuevo usuario. Ya finalizado la creación del nuevo usuario, hacer click en este e ir a la pestaña de permisos y conceder todos lo permisos para el uso de kinesis, luego ir a la parte de credenciales de seguridad y guardar los datos de access key y secret key que van a ser utilizados posteriormente.
+### Paso 3 
