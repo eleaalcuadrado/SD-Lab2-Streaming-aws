@@ -19,9 +19,9 @@ El enfoque de la solución es una combinación de patrones entre productor-consu
 ## Desarrollo
 
 ### Principales inconvenientes o barreras detectadas
-Los principales incovenientes fueron la poca experiencia en la utilización de AWS y spark, lo cual llevo un tiempo de aprendizaje de estas tecnologías antes de encontrar una solución al problema planteado.
+Los principales incovenientes fueron la poca experiencia en la utilización de AWS y spark, lo cual llevo un tiempo de aprendizaje de estas tecnologías antes de encontrar una solución al problema planteado. También existieron dificultades para comprender lo que se pedía para este laboratorio, dado a su vez, por el desconocimiento de las tecnologías que se debian utilizar.
 
-Entre las barreras detectadas esta que para utilizar AWS se requiere una tarjeta de crédito que cuente con compra internacional. Si no AWS no deja probar sus servicios
+Entre las barreras detectadas, esta que para utilizar AWS se requiere una tarjeta de crédito que cuente con compra internacional. Si no se cuenta con un sistema de pago habilitado AWS no deja probar sus servicios
 ### Clases/funciones/procedimientos principales del desarrollo
 
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
