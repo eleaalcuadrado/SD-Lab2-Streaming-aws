@@ -31,22 +31,33 @@ Datos para la creación del servicio de data stream
 Se define 3 parámetros de la configuración del servicio de stream de datos. Estos son el nombre del stream, la región del servidor y un nombre para el AWS.
 
 
-Definición de funciones para crear el stream
+Definición de funciones para crear el stream.
   A continuación se definen las funciones que permiten la creación del servicio de stream de datos alojado en el AWS.
 	get_status(): método que se encarga de verificar si esta activo o no el servicio.
   create_stream(): método que se encarga de la creación del servicio stream a través de la función create_stream de kinesis.
 
 
- Definición funciones creación del data stream
+ Definición funciones creación del data stream.
+ 
   KinesisProducer(): Clase que permite la creación del productor de streams de datos en el AWS.
 	put_record(): método que inicia la ejecución de los stream de datos.
 	run_continously(): método que se encarga de la ejecución periódica de los stream de datos.
 	run(): función que inicia la ejecución del productor.
 
- Definición funciones creación del data stream
+ Definición funciones creación del data stream.
   KinesisConsumer(): Clase que permite la creación del consumidor de los stream de datos emitidos por el productor alojado     en el AWS.
   iter_records(): método que permite al consumidor iterar los datos emitidos por el productor desde un bloque definido.
-  run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.
+  run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.KinesisConsumer(): Clase que permite la creación del consumidor de los stream de datos emitidos por el productor alojado     en el AWS.
+48
+  iter_records(): método que permite al consumidor iterar los datos emitidos por el productor desde un bloque definido.
+49
+  run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.
+50
+  Redefinición de función de procesamiento de data para búsqueda por rut.
+51
+  SearchConsumer(): clase que se encarga de que el consumidor busque un dato emitido por el porductor.
+52
+   process_records(): método que se encarga de que el consumidor pueda encontrar el dato dentro del streaming de datos         recibidos desde el productor.
  
  Redefinición de función de procesamiento de data para búsqueda por rut
   SearchConsumer(): clase que se encarga de que el consumidor busque un dato emitido por el porductor.
