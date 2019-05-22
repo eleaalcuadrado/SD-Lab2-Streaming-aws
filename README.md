@@ -78,8 +78,9 @@ Consumidor buscando el dato dado un rut.
 ## Link de acceso a versión productiva del software.
 
 ## Pasos para desplegar servicio desde cero.
-
-* Phyton3
+Elementos necesarios
+* Anaconda para ejecución de Jupyter
+* Cuenta en AWS
 
 A continuación se explica el paso a paso para hacer uso del servicio
 ### Paso 1 Creación de cuenta
@@ -87,4 +88,7 @@ Crear una cuenta en Amazon Web Service con un método de pago habilitado para ha
 ### Paso 2 Creación de credenciales
 Una vez dentro de AWS ir a la sección Seguridad, Identidad Y Conformidad e ingresar a IAM, en la pestaña usuario crear un nuevo usuario. Ya finalizado la creación del nuevo usuario, hacer click en este e ir a la pestaña de permisos y conceder todos lo permisos para el uso de kinesis, luego ir a la parte de credenciales de seguridad y guardar los datos de access key y secret key que van a ser utilizados posteriormente.
 ### Paso 3 Agregar credenciales para uso de app
-Para agregar las credenciales es necesario instalar awscli mediante el 
+Para agregar las credenciales es necesario instalar awscli mediante el comando en shield $pip install awscli.
+Luego con el comando $aws configure --profile ejemplo, ingresar las credenciales obtenidas anteriormente.
+### Paso 4 Ejecución
+Para ejecutar el servicio abrir anaconda, iniciar jupyter notebook y abrir el archivo Lab2_Sistemas_Distribuidos e ir ejecutando cada uno de los header.
