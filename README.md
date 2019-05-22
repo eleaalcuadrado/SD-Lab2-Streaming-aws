@@ -25,7 +25,7 @@ Entre las barreras detectadas, esta que para utilizar AWS se requiere una tarjet
 ### Clases/funciones/procedimientos principales del desarrollo
 
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
-
+![data stream](https://user-images.githubusercontent.com/19898908/58142929-f3a03b80-7c16-11e9-8608-7383b3266083.PNG)
 ## Link de acceso a versión productiva del software.
 
 ## Pasos para desplegar servicio desde cero.
