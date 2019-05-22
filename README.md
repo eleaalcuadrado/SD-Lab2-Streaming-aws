@@ -69,14 +69,10 @@ Definición de funciones para crear el stream.
 
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
 ![data stream](https://user-images.githubusercontent.com/19898908/58142929-f3a03b80-7c16-11e9-8608-7383b3266083.PNG)
-
+	
+Consumidor captando el streaming del Productor.
+![data_stream](https://user-images.githubusercontent.com/28808828/58146570-b2168d00-7c24-11e9-98b4-afdb10676246.png)
 
 ## Link de acceso a versión productiva del software.
 
 ## Pasos para desplegar servicio desde cero.
-A continuación se explica el paso a paso para hacer uso del servicio
-### Paso 1 Creación de cuenta
-Crear una cuenta en Amazon Web Service con un método de pago habilitado para hacer uso de los servicios de AWS.
-### Paso 2 Creación de credenciales
-Una vez dentro de AWS ir a la sección Seguridad, Identidad Y Conformidad e ingresar a IAM, en la pestaña usuario crear un nuevo usuario. Ya finalizado la creación del nuevo usuario, hacer click en este e ir a la pestaña de permisos y conceder todos lo permisos para el uso de kinesis, luego ir a la parte de credenciales de seguridad y guardar los datos de access key y secret key que van a ser utilizados posteriormente.
-### Paso 3 
