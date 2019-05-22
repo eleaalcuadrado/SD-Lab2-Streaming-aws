@@ -19,7 +19,7 @@ El enfoque de la solución es una combinación de patrones entre productor-consu
 ## Desarrollo
 
 ### Principales inconvenientes o barreras detectadas
-Los principales incovenientes 
+Los principales incovenientes fueron la poca experiencia en la utilización de AWS y spark, lo cual llevo un tiempo de aprendizaje de estas tecnologías antes de encontrar una solución al problema planteado
 ### Clases/funciones/procedimientos principales del desarrollo
 
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
