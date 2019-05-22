@@ -51,9 +51,7 @@ Definición de funciones para crear el stream.
  
   * KinesisConsumer(): Clase que permite la creación del consumidor de los stream de datos emitidos por el productor alojado     en el AWS.
   * iter_records(): método que permite al consumidor iterar los datos emitidos por el productor desde un bloque definido.
-  * run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.KinesisConsumer(): Clase que permite la creación del consumidor de los   	stream de datos emitidos por el productor alojado en el AWS.
-  * iter_records(): método que permite al consumidor iterar los datos emitidos por el productor desde un bloque definido.
-  * run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.
+  * run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.
   
   Redefinición de función de procesamiento de data para búsqueda por rut.
   
