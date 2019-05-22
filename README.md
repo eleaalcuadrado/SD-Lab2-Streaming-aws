@@ -58,7 +58,7 @@ Definición de funciones para crear el stream.
   Redefinición de función de procesamiento de data para búsqueda por rut.
   
   * SearchConsumer(): clase que se encarga de que el consumidor busque un dato emitido por el productor.
-  * process_records(): método que se encarga de que el consumidor pueda encontrar el dato dentro del streaming de datos         recibidos desde el productor.
+  * process_records(): método que se encarga de que el consumidor pueda encontrar el dato dentro del streaming de datos         recibidos desde el productor.
  
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
 
