@@ -68,8 +68,12 @@ Definición de funciones para crear el stream.
 
 
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
-![data stream](https://user-images.githubusercontent.com/19898908/58142929-f3a03b80-7c16-11e9-8608-7383b3266083.PNG)
 
+Consumidor captando el streaming del Productor.
+![data_stream](https://user-images.githubusercontent.com/28808828/58146570-b2168d00-7c24-11e9-98b4-afdb10676246.png)
+
+Consumidor buscando el dato dado un rut.
+![data_stream](https://user-images.githubusercontent.com/28808828/58146694-30732f00-7c25-11e9-90d1-7df9f57d2a39.png)
 
 ## Link de acceso a versión productiva del software.
 
