@@ -14,7 +14,9 @@
   
 ## Enfoque de la solución
 La solución desarrollada se realiza mediante "Kinesis" de AWS, el cual permite el trato de stream de datos y que permite utilizar patrón plubish-suscriber.
-El enfoque de la solución es una combinación de patrones entre productor-consumidor y publicación-suscriptor. La parte de productor es utilizada para generar un stream de datos, a continuación 
+El enfoque de la solución es una combinación de patrones entre productor-consumidor y publicación-suscriptor. La parte de productor es utilizada para generar un stream de datos, a continuación
+
+![kinesis3](https://user-images.githubusercontent.com/19898908/58143990-bfc71500-7c1a-11e9-9ed1-96deb24cc20f.PNG)
 
 ## Desarrollo
 
