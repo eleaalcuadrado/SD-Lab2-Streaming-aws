@@ -27,6 +27,32 @@ Los principales incovenientes fueron la poca experiencia en la utilización de A
 
 Entre las barreras detectadas, esta que para utilizar AWS se requiere una tarjeta de crédito que cuente con compra internacional. Si no se cuenta con un sistema de pago habilitado AWS no deja probar sus servicios
 ### Clases/funciones/procedimientos principales del desarrollo
+Datos para la creación del servicio de data stream
+Se define 3 parámetros de la configuración del servicio de stream de datos. Estos son el nombre del stream, la región del servidor y un nombre para el AWS.
+
+
+Definición de funciones para crear el stream
+  A continuación se definen las funciones que permiten la creación del servicio de stream de datos alojado en el AWS.
+	get_status(): método que se encarga de verificar si esta activo o no el servicio.
+  create_stream(): método que se encarga de la creación del servicio stream a través de la función create_stream de kinesis.
+
+
+ Definición funciones creación del data stream
+  KinesisProducer(): Clase que permite la creación del productor de streams de datos en el AWS.
+	put_record(): método que inicia la ejecución de los stream de datos.
+	run_continously(): método que se encarga de la ejecución periódica de los stream de datos.
+	run(): función que inicia la ejecución del productor.
+
+ Definición funciones creación del data stream
+  KinesisConsumer(): Clase que permite la creación del consumidor de los stream de datos emitidos por el productor alojado     en el AWS.
+  iter_records(): método que permite al consumidor iterar los datos emitidos por el productor desde un bloque definido.
+  run(): método que se encarga de iniciar el consumidor, definir el inicio y término de este y en el caso de que se hayan       terminado los datos emitidos finaliza su ejecución.
+ 
+ Redefinición de función de procesamiento de data para búsqueda por rut
+  SearchConsumer(): clase que se encarga de que el consumidor busque un dato emitido por el porductor.
+   process_records(): método que se encarga de que el consumidor pueda encontrar el dato dentro del streaming de datos         recibidos desde el productor.
+
+
 
 ## Resultados (gráficos de evaluación de tiempos de respuesta, capturas de pantalla de la plataforma funcional, entre otros).
 ![data stream](https://user-images.githubusercontent.com/19898908/58142929-f3a03b80-7c16-11e9-8608-7383b3266083.PNG)
